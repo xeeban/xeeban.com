@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to My Site">
+  <div class="text-center">
+    <h1 class="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
+      Welcome to My Site
+    </h1>
+    <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
+      This is a modern website built with Astro and Tailwind CSS.
+    </p>
+  </div>
+
+  <div class="mt-16">
+    <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Latest Content</h2>
+    <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Example content cards -->
+      <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Getting Started</h3>
+        <p class="mt-2 text-gray-600 dark:text-gray-300">
+          Learn how to get started with our platform and make the most of its features.
+        </p>
+      </article>
+      <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Features</h3>
+        <p class="mt-2 text-gray-600 dark:text-gray-300">
+          Explore the powerful features that make our platform stand out.
+        </p>
+      </article>
+      <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Resources</h3>
+        <p class="mt-2 text-gray-600 dark:text-gray-300">
+          Access helpful resources and documentation to support your journey.
+        </p>
+      </article>
+    </div>
+  </div>
+</Layout> 
