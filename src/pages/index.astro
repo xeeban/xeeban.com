@@ -2,38 +2,113 @@
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="Welcome to My Site">
-  <div class="text-center">
-    <h1 class="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
-      Welcome to My Site
-    </h1>
-    <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-      This is a modern website built with Astro and Tailwind CSS.
-    </p>
-  </div>
+<Layout title="Nori Nishigaya - xeeban">
+  <div class="max-w-4xl mx-auto">
+    <!-- Hero Section -->
+    <div class="text-center py-12">
+      <h1 class="text-5xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl mb-4">
+        Nori Nishigaya
+      </h1>
+      <p class="text-xl text-gray-600 dark:text-gray-400 mb-8">
+        xeeban
+      </p>
+      <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
+        Exploring the intersection of decentralized governance, AI, and integral theory.
+        Building high-trust spaces for collaborative innovation.
+      </p>
+    </div>
 
-  <div class="mt-16">
-    <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Latest Content</h2>
-    <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      <!-- Example content cards -->
-      <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
-        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Getting Started</h3>
-        <p class="mt-2 text-gray-600 dark:text-gray-300">
-          Learn how to get started with our platform and make the most of its features.
+    <!-- Current Work -->
+    <div class="mt-16 border-t border-gray-200 dark:border-gray-700 pt-12">
+      <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-8">Current Work</h2>
+      <div class="space-y-6">
+        <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
+          <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Co-founder, Andamio</h3>
+          <p class="text-gray-700 dark:text-gray-300">
+            Building a Trust Protocol for decentralized collaboration and learning.
+          </p>
+        </div>
+        <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-6 border border-gray-200 dark:border-gray-700">
+          <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">Source, ODIN</h3>
+          <p class="text-gray-700 dark:text-gray-300">
+            Supporting a network focused on decentralized innovation and bio-regional revitalization.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Current Learning -->
+    <div class="mt-16">
+      <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-8">Learning Journey</h2>
+      <div class="prose dark:prose-invert max-w-none">
+        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-700 rounded-lg p-6 border border-blue-200 dark:border-gray-600">
+          <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">100 Days of AI</h3>
+          <p class="text-gray-700 dark:text-gray-300 mb-2">
+            Starting September 15, 2025 - Exploring AI technologies while preserving what makes us uniquely human.
+          </p>
+        </div>
+        <div class="mt-6 grid gap-4 sm:grid-cols-2">
+          <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 border border-gray-200 dark:border-gray-700">
+            <p class="font-medium text-gray-900 dark:text-white">Japanese Language</p>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 border border-gray-200 dark:border-gray-700">
+            <p class="font-medium text-gray-900 dark:text-white">Personal Knowledge Management</p>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 border border-gray-200 dark:border-gray-700">
+            <p class="font-medium text-gray-900 dark:text-white">User Experience Design</p>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 border border-gray-200 dark:border-gray-700">
+            <p class="font-medium text-gray-900 dark:text-white">Collective Intelligence</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interests & Philosophy -->
+    <div class="mt-16">
+      <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-8">Interests & Philosophy</h2>
+      <div class="prose dark:prose-invert max-w-none">
+        <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+          As a Zen Buddhist practitioner, I'm interested in evolutionary organizational principles
+          and creating spaces for authentic collaboration. My work focuses on:
         </p>
-      </article>
-      <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
-        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Features</h3>
-        <p class="mt-2 text-gray-600 dark:text-gray-300">
-          Explore the powerful features that make our platform stand out.
-        </p>
-      </article>
-      <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
-        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Resources</h3>
-        <p class="mt-2 text-gray-600 dark:text-gray-300">
-          Access helpful resources and documentation to support your journey.
-        </p>
-      </article>
+        <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+          <li>Decentralized governance and collaborative decision-making</li>
+          <li>The intersection of blockchain and AI</li>
+          <li>Integral theory and sense-making</li>
+          <li>Self-managed organizations and high-trust networks</li>
+          <li>Bio-regional revitalization</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Connect -->
+    <div class="mt-16 border-t border-gray-200 dark:border-gray-700 pt-12 text-center">
+      <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-8">Let's Connect</h2>
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-8">
+        Interested in collaboration, learning together, or just connecting? Find me here:
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="https://twitter.com/Xeeban" target="_blank" rel="noopener noreferrer"
+           class="px-6 py-3 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-gray-900 dark:text-white transition-colors border border-gray-300 dark:border-gray-600">
+          Twitter
+        </a>
+        <a href="https://bsky.app/profile/xeeban.bsky.social" target="_blank" rel="noopener noreferrer"
+           class="px-6 py-3 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-gray-900 dark:text-white transition-colors border border-gray-300 dark:border-gray-600">
+          BlueSky
+        </a>
+        <a href="https://www.linkedin.com/in/nori-nishigaya" target="_blank" rel="noopener noreferrer"
+           class="px-6 py-3 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-gray-900 dark:text-white transition-colors border border-gray-300 dark:border-gray-600">
+          LinkedIn
+        </a>
+        <a href="https://github.com/xeeban" target="_blank" rel="noopener noreferrer"
+           class="px-6 py-3 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-lg text-gray-900 dark:text-white transition-colors border border-gray-300 dark:border-gray-600">
+          GitHub
+        </a>
+      </div>
+      <p class="mt-6 text-gray-600 dark:text-gray-400">
+        Discord: nori.nishigaya
+      </p>
     </div>
   </div>
 </Layout> 
